@@ -150,3 +150,100 @@ nav {
     font-size: 1.4rem;
     font-weight: 100;
 }
+
+
+/* Villas Section */
+.villas{
+    padding: 8rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.villas-heading{
+    font-family: "Rufina", serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.villas-tagline{
+    font-size: 0.8rem;
+    text-align: center;
+    width: 50rem;
+    margin-bottom: 3rem;
+}
+
+.listings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Propoerty Cards */
+.property{
+    background-color: #FEFEFE;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.4rem;
+    border-bottom-right-radius: 1.5rem;
+    overflow: hidden;
+}
+.propimg{
+    width: 100%;
+    height: 396px;
+    background-color: #181D24;
+    background-position: center;
+    background-size: cover;
+    border-bottom-right-radius: 1.8rem;
+}
+
+.propimg p{
+    margin: 15px;
+    padding: 10px 15px;
+    background-color: #F5E9D6;
+    display: inline-block;
+    border-radius: 5px;
+    border-bottom-right-radius: 15px;
+    border-bottom: 5px solid #918675;
+}
+.propimg p span{
+    font-weight: bold;
+}
+.villa-desc{
+    padding: 1rem 1.5rem;
+}
+
+.villa-desc h1{
+    font-family: "Rufina", serif;
+    margin: 10px 0;
+}
+
+.villa-desc h5{
+    font-weight: normal;
+}
+.villa-desc h5 span{
+    font-weight: bold;
+}
+
+.desc-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 0.8rem;
+}
+.desc{
+    display: flex;
+    gap: 10px;
+}
+.desc img{
+    height: 20px;
+}
+.desc span{
+    font-weight: bold;
+}
+
+/* All Prop Card images */
+.prop1-img{
+    background-image: url(resources/prop1.png);
+}
