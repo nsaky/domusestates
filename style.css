@@ -154,7 +154,7 @@ nav {
 
 /* Villas Section */
 .villas{
-    padding: 6rem 12rem;
+    padding: 6rem 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,20 +164,22 @@ nav {
 .villas-heading{
     font-family: "Rufina", serif;
     font-size: 2.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .villas-tagline{
     font-size: 0.8rem;
     text-align: center;
     width: 50rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 .listings{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
@@ -255,4 +257,50 @@ nav {
 /* All Prop Card images */
 .prop1-img{
     background-image: url(resources/prop1.png);
+}
+
+.prop2-img{
+    background-image: url(resources/prop2.png);
+}
+
+.prop3-img{
+    background-image: url(resources/prop3.png);
+}
+
+.prop4-img{
+    background-image: url(resources/prop4.png);
+}
+
+.prop5-img{
+    background-image: url(resources/prop5.png);
+}
+
+.prop6-img{
+    background-image: url(resources/prop6.png);
+}
+
+.prop7-img{
+    background-image: url(resources/prop7.png);
+}
+
+.prop8-img{
+    background-image: url(resources/prop8.png);
+}
+
+.prop9-img{
+    background-image: url(resources/prop9.png);
+}
+
+/* Load More button */
+.villas h6{
+    cursor: pointer;
+    margin: 5rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: font-weight 1s, font-size 1s;
+    
+}
+.villas h6:hover{
+    font-weight: 600;
+    font-size: 1.2rem;
 }
