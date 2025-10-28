@@ -154,7 +154,7 @@ nav {
 
 /* Villas Section */
 .villas{
-    padding: 8rem 12rem;
+    padding: 6rem 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,12 +183,15 @@ nav {
 
 /* Propoerty Cards */
 .property{
+    cursor: pointer;
     background-color: #FEFEFE;
     width: 400px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 560px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 0.4rem;
     border-bottom-right-radius: 1.5rem;
     overflow: hidden;
+    transition: box-shadow 1s, height 1s, width 1s;
 }
 .propimg{
     width: 100%;
@@ -243,6 +246,12 @@ nav {
     font-weight: bold;
 }
 
+/* Property Card Hover Animation */
+.property:hover{
+    width: 405px;
+    height: 565px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 /* All Prop Card images */
 .prop1-img{
     background-image: url(resources/prop1.png);
