@@ -313,8 +313,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    min-height: 100vh;
     background-color: #C9BDAB;
     border-bottom-right-radius: 10rem;
 
@@ -389,3 +387,47 @@ nav {
 .prop-type-desc p span{
     font-weight: bold;
 }
+
+/* Our Specialities */
+
+.specialities{
+    padding: 6rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialities-heading{
+    font-family: "Rufina", serif;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 1rem 0;
+}
+
+.feature{
+    padding: 3px 3rem;
+}
+.feature img{
+    height: 2rem;
+}
+.feature h3{
+    font-family: "Rufina", serif;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+
+}
+.feature p{
+    color: #5B656F;
+    font-size: 0.8rem;
+}
+.feature-divider{
+    border-right: 1px solid #C9BDAB;
+}
+
