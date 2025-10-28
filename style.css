@@ -304,3 +304,88 @@ nav {
     font-weight: 600;
     font-size: 1.2rem;
 }
+
+
+/* Our Regions */
+.regions{
+    padding: 6rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    background-color: #C9BDAB;
+    border-bottom-right-radius: 10rem;
+
+
+}
+.regions-heading{
+    font-family: "Rufina", serif;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.regions-tagline{
+    font-size: 0.8rem;
+    text-align: center;
+    width: 55rem;
+    margin-bottom: 4rem;
+}
+
+.prop-types-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+}
+
+.prop-type{
+    height: 410px;
+    width: 475px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: box-shadow 1s, height 1s, width 1s;
+}
+
+.prop-type:hover{
+    height: 415px;
+    width: 480px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.mountain-prop{
+    background-image: url(resources/mountain-prop.png);
+    border-bottom-left-radius: 3.5rem;
+    border-top-right-radius: 3.5rem;
+}
+
+.seaside-prop{
+    background-image: url(resources/seaside-prop.png);
+    border-bottom-right-radius: 3.5rem;
+    border-top-left-radius: 3.5rem;
+}
+
+.prop-type-desc{
+    color: #ffffff;
+    position: relative;
+    top: 18.5rem;
+    left: 2rem;
+}
+
+.prop-type-desc h3{
+    font-family: "Rufina", serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.prop-type-desc p{
+    font-weight: 200;
+}
+
+.prop-type-desc p span{
+    font-weight: bold;
+}
