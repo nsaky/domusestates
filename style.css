@@ -315,8 +315,6 @@ nav {
     align-items: center;
     background-color: #C9BDAB;
     border-bottom-right-radius: 10rem;
-
-
 }
 .regions-heading{
     font-family: "Rufina", serif;
@@ -391,7 +389,7 @@ nav {
 /* Our Specialities */
 
 .specialities{
-    padding: 6rem 4rem;
+    padding: 8rem 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -431,3 +429,65 @@ nav {
     border-right: 1px solid #C9BDAB;
 }
 
+/* Join as a Host */
+.hosting{
+    padding: 10rem 0;
+    background-image: url(resources/hosting-bg.png);
+    background-position: center;
+    background-size: cover;
+    border-bottom-right-radius: 10rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hosting-offer{
+    padding: 4rem 1rem;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255,255,255,0.7);
+
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.hosting-heading{
+    font-family: "Rufina", serif;
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.hosting h5{
+    margin-bottom: 0.5rem;
+    color: #5B656F;
+}
+
+.hosting p{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    font-size: 0.8rem;
+}
+
+.hosting button{
+    cursor: pointer;
+    width: 80%;
+    padding: 0.8rem 0;
+    background-color: #5B656F;
+    border: 0;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    border-top-left-radius: 0;
+    box-shadow: none;
+    transition: width 1s, font-size 1s, box-shadow 1s;
+}
+
+.hosting button:hover{
+    width: 85%;
+    font-size: 0.95rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
