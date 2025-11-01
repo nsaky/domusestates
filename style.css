@@ -491,3 +491,36 @@ nav {
     font-size: 0.95rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+/* About Us */
+.about{
+    padding: 6rem 12rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.about-heading{
+    font-family: "Rufina", serif;
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.about p{
+    width: 85%;
+    margin-bottom: 2rem;
+}
+
+.about h3{
+    font-family: "Rufina", serif;
+    text-align: center;
+    background-color: #DFE3E7;
+    padding: 1rem;
+    font-weight: 400;
+}
+
+.about img{
+    height: 35rem;
+}
