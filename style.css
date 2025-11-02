@@ -530,9 +530,8 @@ nav {
 .contact{
     padding: 6rem 12rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
-    gap: 1rem;
 
     background-image: url(resources/contact-bg.png);
     background-size: cover;
@@ -545,7 +544,7 @@ nav {
 /* Contact-Div-1 */
 .contact-details{
     background-color: rgb(24,29,36, 0.9);
-    padding: 4rem 3rem;
+    padding: 4rem 5rem;
     color: #ffffff;
 
     border-radius: 6px;
@@ -600,7 +599,7 @@ nav {
 /* Contact-div-2 */
 .contact-form{
     background-color: rgb(225,225,225, 0.9);
-    padding: 4rem 3rem;
+    padding: 4rem 5rem;
 
     border-radius: 6px;
     border-bottom-right-radius: 4rem;
@@ -680,9 +679,10 @@ textarea {
 }
 
 .submit-button {
-    padding: 1rem 2.5rem;
+    padding: 0.7rem 2.5rem;
     border: 0;
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
+    border-top-left-radius: 0;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     font-size: 1rem;
     font-weight: 500;
@@ -694,4 +694,85 @@ textarea {
 
 .submit-button:hover {
     background-color: #181D24;
+}
+
+
+/* Footer */
+
+footer{
+    padding: 6rem 12rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.footer-top-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-desc h1{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.footer-desc p{
+    color: #5B656F;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-right: 7.5rem;
+}
+
+.footer-contact h3{
+    font-size: 14px;
+}
+
+.footer-contact p{
+    font-size: 12px;
+}
+
+.footer-top-div img{
+    width: 20px;
+}
+
+
+.footer-bottom-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-div a{
+    font-size: 10px;
+    color: #181D24;
+    text-decoration: none;
+    font-weight: 300;
+    margin-right: 2rem;
+    transition: font-weight 1s ease-in, text-decoration 1s ease-in;
+}
+
+.footer-bottom-div a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-bottom-div p{
+    font-size: 10px;
+    font-weight: 300;
 }
