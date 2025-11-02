@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     font-family: "Raleway", sans-serif;
     background-color: #F5F3F1;
@@ -303,7 +307,9 @@ nav {
 }
 
 /* Load More button */
-.villas h6{
+.villas a{
+    color: #181D24;
+    text-decoration: none;
     cursor: pointer;
     margin: 5rem 0 0 0;
     font-size: 1rem;
@@ -311,7 +317,7 @@ nav {
     transition: font-weight 1s, font-size 1s;
     
 }
-.villas h6:hover{
+.villas a:hover{
     font-weight: 600;
     font-size: 1.2rem;
 }
